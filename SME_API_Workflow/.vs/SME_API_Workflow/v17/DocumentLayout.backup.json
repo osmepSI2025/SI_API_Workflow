@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|d:\\git_project\\sme_apimanagement\\sme_api_siworkflow\\sme_api_workflow\\sme_api_workflow\\service\\callapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|solutionrelative:sme_api_workflow\\service\\callapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|d:\\git_project\\sme_apimanagement\\sme_api_siworkflow\\sme_api_workflow\\sme_api_workflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|solutionrelative:sme_api_workflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|d:\\git_project\\sme_apimanagement\\sme_api_siworkflow\\sme_api_workflow\\sme_api_workflow\\service\\mworkflowleadinglaggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|solutionrelative:sme_api_workflow\\service\\mworkflowleadinglaggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|d:\\git_project\\sme_apimanagement\\sme_api_siworkflow\\sme_api_workflow\\sme_api_workflow\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|solutionrelative:sme_api_workflow\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|d:\\git_project\\sme_apimanagement\\sme_api_siworkflow\\sme_api_workflow\\sme_api_workflow\\service\\mworkflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|solutionrelative:sme_api_workflow\\service\\mworkflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|d:\\git_project\\sme_apimanagement\\sme_api_siworkflow\\sme_api_workflow\\sme_api_workflow\\service\\mworkflowactivityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|solutionrelative:sme_api_workflow\\service\\mworkflowactivityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|d:\\git_project\\sme_apimanagement\\sme_api_siworkflow\\sme_api_workflow\\sme_api_workflow\\service\\mworkflowcontrolpointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F691E64F-13CB-4BCC-A9EF-DD25049ED925}|SME_API_Workflow\\SME_API_Workflow.csproj|solutionrelative:sme_api_workflow\\service\\mworkflowcontrolpointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\appsettings.json",
+              "RelativeDocumentMoniker": "SME_API_Workflow\\appsettings.json",
+              "ToolTip": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\appsettings.json",
+              "RelativeToolTip": "SME_API_Workflow\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T02:48:54.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CallAPIService.cs",
+              "DocumentMoniker": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\CallAPIService.cs",
+              "RelativeDocumentMoniker": "SME_API_Workflow\\Service\\CallAPIService.cs",
+              "ToolTip": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\CallAPIService.cs",
+              "RelativeToolTip": "SME_API_Workflow\\Service\\CallAPIService.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAqwBwBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:41:53.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MWorkflowLeadingLaggingService.cs",
+              "DocumentMoniker": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowLeadingLaggingService.cs",
+              "RelativeDocumentMoniker": "SME_API_Workflow\\Service\\MWorkflowLeadingLaggingService.cs",
+              "ToolTip": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowLeadingLaggingService.cs",
+              "RelativeToolTip": "SME_API_Workflow\\Service\\MWorkflowLeadingLaggingService.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAqwHEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:41:37.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MWorkflowControlPointService.cs",
+              "DocumentMoniker": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowControlPointService.cs",
+              "RelativeDocumentMoniker": "SME_API_Workflow\\Service\\MWorkflowControlPointService.cs",
+              "ToolTip": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowControlPointService.cs",
+              "RelativeToolTip": "SME_API_Workflow\\Service\\MWorkflowControlPointService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwGgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:42:25.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkflowController.cs",
+              "DocumentMoniker": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Controllers\\WorkflowController.cs",
+              "RelativeDocumentMoniker": "SME_API_Workflow\\Controllers\\WorkflowController.cs",
+              "ToolTip": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Controllers\\WorkflowController.cs",
+              "RelativeToolTip": "SME_API_Workflow\\Controllers\\WorkflowController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:16:28.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MWorkflowService.cs",
+              "DocumentMoniker": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowService.cs",
+              "RelativeDocumentMoniker": "SME_API_Workflow\\Service\\MWorkflowService.cs",
+              "ToolTip": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowService.cs",
+              "RelativeToolTip": "SME_API_Workflow\\Service\\MWorkflowService.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAswHsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:24:46.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MWorkflowActivityService.cs",
+              "DocumentMoniker": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowActivityService.cs",
+              "RelativeDocumentMoniker": "SME_API_Workflow\\Service\\MWorkflowActivityService.cs",
+              "ToolTip": "D:\\Git_project\\SME_APIManagement\\SME_API_SiWorkflow\\SME_API_Workflow\\SME_API_Workflow\\Service\\MWorkflowActivityService.cs",
+              "RelativeToolTip": "SME_API_Workflow\\Service\\MWorkflowActivityService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv1MAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:16:24.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

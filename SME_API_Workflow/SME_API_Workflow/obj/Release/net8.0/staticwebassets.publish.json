@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VhonnymPZTnKvILf4S/P2TJ8tK7GpGE+DG8XtPewxrc=",
+  "Source": "SME_API_Workflow",
+  "BasePath": "_content/SME_API_Workflow",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

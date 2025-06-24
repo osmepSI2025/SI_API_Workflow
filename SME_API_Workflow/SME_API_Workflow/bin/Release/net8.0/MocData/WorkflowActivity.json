@@ -1,0 +1,21 @@
+{
+  "responseCode": "200",
+  "responseMsg": "OK",
+  "data": [
+    {
+      "workflowCode": "C2.2",
+      "workflowName": "การจัดทำแผนปฏิบัติงาน",
+      "workflowType": "Core Process",
+      "workflowGoupCode": "C2",
+      "period": "01/01/2567-30/04/2567",
+
+      "activityDetails": [
+        {
+          "controlPoint": "C1",
+          "activity": "วิเคราะห์หลักเกณฑ์ของโครงการ",
+          "description": "ดำเนินการวิเคราะห์หลักเกณฑ์ของโครงการ"
+        }
+      ]
+    }
+  ]
+}

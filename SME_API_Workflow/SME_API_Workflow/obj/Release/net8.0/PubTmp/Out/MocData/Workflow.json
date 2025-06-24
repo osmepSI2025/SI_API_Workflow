@@ -1,0 +1,18 @@
+{
+  "responseCode": "200",
+  "responseMsg": "OK",
+  "data": [
+    {
+      "workflowCode": "C2.2",
+      "workflowName": "การจัดทำแผนปฏิบัติงาน",
+      "workflowType": "Core Process",
+      "workflowGoupCode": "C2",
+      "period": "01/01/2567-30/04/2567",
+      "haveDigital": "Y",
+      "haveWorkflow": "Y",
+      "createWorkflow": "N",
+      "performanceIndicator": "มีตัวชี้วัดผลการดำเนินงานครบถ้วน",
+      "URLS": "https://example.com/workflow/c2.2"
+    }
+  ]
+}

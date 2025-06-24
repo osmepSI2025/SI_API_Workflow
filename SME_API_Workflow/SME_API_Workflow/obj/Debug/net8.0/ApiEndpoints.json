@@ -1,0 +1,106 @@
+[
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflow",
+    "RelativePath": "api/SYS-WORKFLOW/Workflow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "models",
+        "Type": "SME_API_Workflow.Models.SearchWorkflowApiResponse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflowBatch",
+    "RelativePath": "api/SYS-WORKFLOW/Workflow-Batch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflowActivity",
+    "RelativePath": "api/SYS-WORKFLOW/WorkflowActivity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "models",
+        "Type": "searchWorkflowActivityDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflowActivityBatch",
+    "RelativePath": "api/SYS-WORKFLOW/WorkflowActivity-Batch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflowControlPoint",
+    "RelativePath": "api/SYS-WORKFLOW/WorkflowControlPoint",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "models",
+        "Type": "searchWorkflowControlPointDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflowControlPointBatch",
+    "RelativePath": "api/SYS-WORKFLOW/WorkflowControlPoint-Batch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflowLeadingLagging",
+    "RelativePath": "api/SYS-WORKFLOW/WorkflowLeadingLagging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "models",
+        "Type": "SME_API_Workflow.Models.searchWorkflowLeadingLaggingDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SME_API_Workflow.Controllers.WorkflowController",
+    "Method": "GetWorkflowLeadingLaggingBatch",
+    "RelativePath": "api/SYS-WORKFLOW/WorkflowLeadingLagging-Batch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

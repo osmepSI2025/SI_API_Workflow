@@ -1,0 +1,162 @@
+{
+  "x-generator": "NSwag v13.20.0.0 (NJsonSchema v10.9.0.0 (Newtonsoft.Json v10.0.0.0))",
+  "swagger": "2.0",
+  "info": {
+    "title": "API SME Worflow",
+    "description": "API documentation using Swagger 2.0",
+    "version": "v1"
+  },
+  "consumes": [
+    "application/json",
+    "text/json",
+    "application/*+json"
+  ],
+  "paths": {
+    "/api/SYS-WORKFLOW/Workflow": {
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "operationId": "Workflow_GetWorkflow",
+        "parameters": [
+          {
+            "name": "models",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/SearchWorkflowApiResponse"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "file"
+            }
+          }
+        }
+      }
+    },
+    "/api/SYS-WORKFLOW/WorkflowActivity": {
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "operationId": "Workflow_GetWorkflowActivity",
+        "parameters": [
+          {
+            "name": "models",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/SearchWorkflowActivityDataModel"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "file"
+            }
+          }
+        }
+      }
+    },
+    "/api/SYS-WORKFLOW/WorkflowControlPoint": {
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "operationId": "Workflow_GetWorkflowControlPoint",
+        "parameters": [
+          {
+            "name": "models",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/SearchWorkflowControlPointDataModel"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "file"
+            }
+          }
+        }
+      }
+    },
+    "/api/SYS-WORKFLOW/WorkflowLeadingLagging": {
+      "post": {
+        "tags": [
+          "Workflow"
+        ],
+        "operationId": "Workflow_GetWorkflowLeadingLagging",
+        "parameters": [
+          {
+            "name": "models",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/SearchWorkflowLeadingLaggingDataModel"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "",
+            "schema": {
+              "type": "file"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "SearchWorkflowApiResponse": {
+      "type": "object",
+      "properties": {
+        "workflowCode": {
+          "type": "string"
+        }
+      }
+    },
+    "SearchWorkflowActivityDataModel": {
+      "type": "object",
+      "properties": {
+        "workflowCode": {
+          "type": "string"
+        }
+      }
+    },
+    "SearchWorkflowControlPointDataModel": {
+      "type": "object",
+      "properties": {
+        "workflowCode": {
+          "type": "string"
+        }
+      }
+    },
+    "SearchWorkflowLeadingLaggingDataModel": {
+      "type": "object",
+      "properties": {
+        "workflowCode": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
