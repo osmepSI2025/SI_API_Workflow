@@ -170,7 +170,13 @@ public class MWorkflowLeadingLaggingService
                 var Ldata2 = await _repository.GetAllAsyncSearch_MWorkflowLeadingLagging(xmodel);
                 if (Ldata2 == null || !Ldata2.Any())
                 {
-                    return new WorkflowLeadingLaggingApiResponse();
+                   
+                    return new WorkflowLeadingLaggingApiResponse
+                    {
+                        ResponseMsg = "No data found",
+                        ResponseCode = "200",
+                        Data = new List<WorkflowLeadingLaggingDataModel>()
+                    };
                 }
                 else
                 {

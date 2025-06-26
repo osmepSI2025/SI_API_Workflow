@@ -193,7 +193,13 @@ public class MWorkflowActivityService
                 var Ldata2 = await _repository.GetAllAsyncSearch_MWorkflowActivity(xmodel);
                 if (Ldata2 == null || !Ldata2.Any())
                 {
-                    return new WorkflowActivityApiResponse();
+                    
+                    return new WorkflowActivityApiResponse
+                    {
+                        ResponseMsg = "No data found",
+                        ResponseCode = "200",
+                        Data= new List<WorkflowActivityDataModel>()
+                    };
                 }
                 else
                 {

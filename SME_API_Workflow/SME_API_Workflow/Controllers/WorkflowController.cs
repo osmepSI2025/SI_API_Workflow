@@ -29,6 +29,14 @@ MWorkflowLeadingLaggingService workflowLeadingLaggingService
         public async Task<IActionResult> GetWorkflow(SearchWorkflowApiResponse models)
         {
             var result = await _workflowService.GetAllAsyncSearch_MWorkflow(models);
+            if (result.ResponseCode == null || result.Data == null|| result.Data.Count == 0) 
+            {
+                result = new WorkflowApiResponse {
+                 Data = new List<WorkflowDataModel>(),
+                 ResponseMsg = "No data found",
+                 ResponseCode = "200"
+                };
+            }
             return Ok(result);
         }
         [HttpGet("Workflow-Batch")]

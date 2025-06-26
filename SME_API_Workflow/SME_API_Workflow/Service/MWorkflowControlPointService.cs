@@ -194,7 +194,13 @@ public class MWorkflowControlPointService
                 var Ldata2 = await _repository.GetAllAsyncSearch_MWorkflowControlPoints(xmodel);
                 if (Ldata2 == null || !Ldata2.Any())
                 {
-                    return new WorkflowControlPointApiResponse();
+                   
+                    return new WorkflowControlPointApiResponse
+                    {
+                        ResponseMsg = "No data found",
+                        ResponseCode = "200",
+                        Data  = new List<WorkflowControlPointDataModel>()
+                    };
                 }
                 else
                 {
